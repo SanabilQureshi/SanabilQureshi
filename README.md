@@ -1,14 +1,20 @@
 ## Hi there, I'm Sunny 👋 
 
-## :book: 𝙰𝚋𝚘𝚞𝚝 𝙼𝚎
+## About Me 👋 
 
-🚀 I'm passionate about building **scalable infrastructure**, **automating complex workflows**, and creating **reliable deployment pipelines** that bridge the gap between development and production.
+I'm love to read and experiment with building **scalable infrastructure**, **automating complex workflows**, and creating **reliable deployment pipelines** that bridge the gap between development and production.
 
-🧠 Currently, I'm exploring **container orchestration**, **observability platforms**, and **infrastructure as code** to build more robust and maintainable systems.
+Currently, I'm exploring **container orchestration**, **observability platforms**, and **infrastructure as code** to build more robust and maintainable systems.
 
-🤝 **Let's Connect!** I'm seeking opportunities in MLOps, DevOps, and infrastructure engineering. Contact me at: sanabil.t.qureshi@gmail.com
+- MEng Aerospace Engineering (Hons.) from Brunel University London
+- 3.5+ years experience at HSBC as a Corporate/Investment Banker
+- 7+ years working on and growing my Homelab (please feel free to take a look!)
 
-## 📌 Featured Projects
+**Let's Connect!** I'm seeking opportunities in MLOps, DevOps, and infrastructure engineering. 
+
+Contact me at: sanabil.t.qureshi@gmail.com
+
+## Featured Projects
 
 ### 🔧 **Infrastructure & DevOps**
 - **[Predictive Fan Control System](link)**  
@@ -36,9 +42,9 @@
 
 ## 🛠️ Toolbox
 
-- **Languages:** Python, C++, SQL, JavaScript, Shell scripting
-- **Infrastructure:** Docker, Docker Compose, Kubernetes concepts, Linux administration
-- **Monitoring:** Prometheus, Grafana, Time-series databases, Custom metrics instrumentation
-- **Automation:** CI/CD pipelines, Web scraping (Selenium/BeautifulSoup), IaC practices
+- **Languages:** Python, C++, SQL, Bash/Shell scripting
 - **ML/AI:** TensorFlow, OpenCV, Neural network implementations, Model deployment
 - **Cloud & DevOps:** Container orchestration, Service mesh concepts, Secret management, Network isolation
+- **Infrastructure:** Docker, Docker Compose, Kubernetes concepts, Linux administration
+- **Monitoring:** Prometheus, Grafana
+- **Automation:** CI/CD pipelines, Web scraping (Selenium/BeautifulSoup), IaC practices
