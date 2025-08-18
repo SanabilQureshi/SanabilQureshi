@@ -17,25 +17,25 @@ Contact me at: sanabil.t.qureshi@gmail.com
 ## Featured Projects
 
 ### 🔧 **Infrastructure & DevOps**
-- **[Predictive Fan Control System](link)**  
+- **[Predictive Fan Control System](https://github.com/SanabilQureshi/WIP-Predictive-Fan-Control-System)** 
    Docker-based thermal management with PID control, featuring Prometheus monitoring and auto-provisioned Grafana dashboards.
 
-- **[University Timetable Scraper](link)**  
+- **[University Timetable Scraper](https://github.com/SanabilQureshi/Brunel-Timetable-Scraper)**  
    Automated web scraping tool using Selenium and BeautifulSoup to extract and convert academic schedules to ICS format.
 
 ---
 
 ### 🤖 **Machine Learning & Engineering**
-- **[Neural Network Framework from Scratch](link)**  
+- **[Neural Network Framework from Scratch](https://github.com/SanabilQureshi/NNFS-CPP)**  
    Pure C++ implementation of deep learning fundamentals including backpropagation, optimizers (Adam, SGD), achieving 97%+ MNIST accuracy.
 
-- **[Autonomous Computer Vision System](link)**  
+- **[Autonomous Computer Vision System](https://github.com/SanabilQureshi/Major-Group-Project-Code)**  
    High-speed robotic quality control using TensorFlow and OpenCV for real-time defect detection in manufacturing (MEng thesis).
 
 ---
 
 ### 📊 **Data Engineering & Analytics**
-- **[Banking Portfolio Analysis Tool](link)**  
+- **Banking Portfolio Analysis Tool**  
    Internal analytics tool at HSBC identifying £50M+ revenue optimization opportunities across corporate portfolio.
 
 ---
