@@ -1,6 +1,6 @@
 ## Hi there, I'm Sunny 👋 
 
-:book: 𝙰𝚋𝚘𝚞𝚝 𝙼𝚎
+## :book: 𝙰𝚋𝚘𝚞𝚝 𝙼𝚎
 
 🚀 I'm passionate about building **scalable infrastructure**, **automating complex workflows**, and creating **reliable deployment pipelines** that bridge the gap between development and production.
 
