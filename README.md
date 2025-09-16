@@ -4,7 +4,9 @@
 
 I'm love to read and experiment with building **scalable infrastructure**, **automating complex workflows**, and creating **reliable deployment pipelines** that bridge the gap between development and production. Applying this to the field of Machine Learning / AI is exciting for me since it bridges the gap between theoretical analysis and practical value.
 
-Currently, I'm exploring **container orchestration**, **observability platforms**, and **infrastructure as code** to build more robust and maintainable systems. This has been used with [insert one or two projects]
+Currently, I'm exploring **container orchestration**, **observability platforms**, and **infrastructure as code** to build more robust and maintainable systems.
+
+My background:
 
 - MEng Aerospace Engineering (Hons.) from Brunel University London
 - 3.5+ years experience at HSBC as a Corporate/Investment Banker
