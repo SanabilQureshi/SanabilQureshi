@@ -10,7 +10,7 @@ My background:
 
 - MEng Aerospace Engineering (Hons.) from Brunel University London
 - 3.5+ years experience at HSBC as a Corporate/Investment Banker
-- 7+ years working on and growing my Homelab (please feel free to take a look!)
+- 7+ years working on and growing my Homelab
 
 **Let's Connect!** Please feel free to contact me at: sanabil.t.qureshi@gmail.com
 
