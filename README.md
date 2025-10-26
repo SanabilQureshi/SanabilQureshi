@@ -105,7 +105,7 @@ What started out as a single laptop with a broken screen but fully functional as
 
 ## Current setup
 
-**① Heavy Compute & Virtualization**
+**Heavy Compute & Virtualization**
 
 - Fractal
   - EPYC 7542 server (196GB ECC RAM, 8x GPUs) running Fedora with QEMU/KVM for GPU-accelerated workloads including LLM inference servers (vLLM, llama.cpp), model fine-tuning, and classical ML pipelines for real-time CCTV video processing. 
@@ -114,12 +114,12 @@ What started out as a single laptop with a broken screen but fully functional as
   - Dell R730 (dual Xeon E5-2680 v4, 384GB ECC RAM) running ESXi for mixed Windows/Linux VM workloads and testing environments. Previously used Proxmox and made scripts to allow safe export and import.
   - Also runs dedicated Windows VM's for family members and when having a LAN party. High speed NVME/SAS storage acts as a cache for local-only updates and file storage
 
-**② Lightweight containerisation**
+**Lightweight containerisation**
 
 - Lenovo M920Q NUC running Ubuntu Server LTS hosts 30+ containerised services managed through Portainer using Docker Compose stacks, including N8N workflow automation integrated with local LLM APIs, Jupyter notebook servers, PDF tools (StirlingPDF), and note-taking applications (Memos, Bytestash, Trilium).
 - Services run on custom bridge networks for isolation with persistent volume mounts backed up daily/weekly to separate NAS servers and monthly to cold storage.
 
-**③ Networking**
+**Networking**
 
 - UniFi stack (UDM Pro, 24-port PoE switch, multiple APs) with VLAN segmentation for IoT, services, management, and guest networks, each with dedicated firewall rules. Inter-device connectivity uses SFP+ 10GbE links.
 - Self-terminated and deployed CAT6 cabling throughout the house connecting to a central patch panel in the rack, with WireGuard VPN credentials setup for remote access by family/friends.
