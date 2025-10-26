@@ -63,6 +63,7 @@ The work/fun never stops with my homelab, it's something that I started building
 What started out as a single laptop with a broken screen but fully functional as a server, eventually grew into a multi-node infrastructure that benefits others and myself on a daily basis.
 
 
+
 ## A brief summary of my Homelab journey
 
 <details>
@@ -100,6 +101,8 @@ What started out as a single laptop with a broken screen but fully functional as
 *Core Skills:* Linux system administration, container orchestration, network architecture and security, storage management, infrastructure automation (Bash/Python), monitoring and observability, PKI/certificate management, hardware selection and configuration, GPU infrastructure management
 
 </details>
+
+
 
 ## Current setup
 
