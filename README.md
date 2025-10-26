@@ -9,7 +9,7 @@ Currently, I'm working on **container orchestration**, **observability platforms
 My background:
 
 - MEng Aerospace Engineering (Hons.) from Brunel University London
-- 3.5+ years experience at HSBC as a Corporate/Investment Banker (current)
+- 3.5+ years experience at HSBC as a Corporate/Investment Banker (current role)
 - 7+ years working on and growing my [Homelab](https://github.com/SanabilQureshi#%EF%B8%8F-my-homelab-infrastructure)
 
 **Let's Connect!** Please feel free to contact me at: sanabil.t.qureshi@gmail.com
