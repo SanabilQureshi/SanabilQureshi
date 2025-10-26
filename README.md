@@ -85,7 +85,7 @@ What started out as a single laptop with a broken screen but fully functional as
 <details>
 <summary><b>Containerisation & Modern Stack (Years 5-7)</b></summary>
 
-- Shifted from heavy virtualisation to containerised services, adopting Docker and Docker Compose with services deployed on a dedicated NUC managed via Portainer. Deployed various reverse proxies (NGINX Proxy Manager) and modern authentication patterns (Authelia, Authentik, Cloudflare Oauth) to allow secure access outside of the network.
+- Shifted from heavy virtualisation to containerised services, adopting Docker and Docker Compose with services deployed on a dedicated NUC managed via Portainer. Deployed various reverse proxies ([NGINX Proxy Manager](https://github.com/NginxProxyManager/nginx-proxy-manager)) and modern authentication patterns ([Authelia](https://github.com/authelia/authelia), [Authentik](https://github.com/goauthentik/authentik), Cloudflare) to allow secure access outside of the network.
 - Built the GPU compute workstation (Fractal) and transitioned to QEMU/KVM for Linux-based virtualisation, developing workflow automations for my key daily needs (ZFS storage, power management), IoT (Home Assistant), and AI services (local LLM inference).
 
 </details>
@@ -101,6 +101,13 @@ What started out as a single laptop with a broken screen but fully functional as
 
 </details>
 
+[Authelia](https://github.com/authelia/authelia)
+[Authentik](https://github.com/goauthentik/authentik)
+[Home Assistant](https://github.com/home-assistant)
+[Prometheus](https://github.com/prometheus/prometheus)
+[Grafana](https://github.com/grafana/grafana)
+[Memos](https://github.com/usememos/memos)
+
 ---
 
 ## Current setup
@@ -112,11 +119,11 @@ What started out as a single laptop with a broken screen but fully functional as
   - To get all 8 GPUs running at Gen4x8 speeds, I configured PCIe bifurcation with retimers to maintain signal integrity across all GPU slots and have an IPMI/IP-KVM setup for full remote out-of-band management of the whole system without needing to be physically present
 - Mandelbrot
   - Dell R730 (dual Xeon E5-2680 v4, 384GB ECC RAM) running ESXi for mixed Windows/Linux VM workloads and testing environments. Previously used Proxmox and made scripts to allow safe export and import.
-  - Also runs dedicated Windows VM's for family members and when having a LAN party. High speed NVME/SAS storage acts as a cache for local-only updates and file storage
+  - Also runs dedicated Windows VM's for family members and when having a LAN party. High speed NVME/SAS storage acts as a cache for local-only updates and file storage.
 
 **Lightweight containerisation**
 
-- Lenovo M920Q NUC running Ubuntu Server LTS hosts 30+ containerised services managed through Portainer using Docker Compose stacks, including N8N workflow automation integrated with local LLM APIs, Jupyter notebook servers, PDF tools (StirlingPDF), and note-taking applications (Memos, Bytestash, Trilium).
+- Lenovo M920Q NUC running Ubuntu Server LTS hosts 30+ containerised services managed through Portainer using Docker Compose stacks, including N8N workflow automation integrated with local LLM APIs, Jupyter notebook servers, PDF tools ([Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF)), and note-taking applications ([Memos](https://github.com/usememos/memos), [ByteStash](https://github.com/jordan-dalby/ByteStash), [Trilium](https://github.com/TriliumNext/Trilium)).
 - Services run on custom bridge networks for isolation with persistent volume mounts backed up daily/weekly to separate NAS servers and monthly to cold storage.
 
 **Networking**
@@ -128,14 +135,14 @@ What started out as a single laptop with a broken screen but fully functional as
 **Storage**
 
 - UNAS Pro (14TB Intel Enterprise SSDs) for daily-use data accessible via SMB/NFS, with a Dell KTN-STL3 JBOD (60TB across two RAID-Z2 vdevs) using ZFS for archival storage.
-- Custom Bash scripts interface with Home Assistant API to safely power on/off the JBOD, monitor power draw during HDD spin-up, verify system readiness, and mount/unmount ZFS pools with pre-flight safety checks. Automated rsync to remote cloud storage follows 3-2-1 backup principles.
+- Custom Bash scripts interface with [Home Assistant](https://github.com/home-assistant) API to safely power on/off the JBOD, monitor power draw during HDD spin-up, verify system readiness, and mount/unmount ZFS pools with pre-flight safety checks. Automated rsync to remote cloud storage follows 3-2-1 backup principles.
 
 **Monitoring & Automation**
 
 - Home Assistant (RPi 5) manages IoT devices, power monitoring for rack equipment, and exposes API endpoints for my own automation workflows.
-- Prometheus and Grafana provide infrastructure monitoring with custom hooks for a PID-controlled fan management system that dynamically adjusts Dell server fan speeds based on workload and temperature with real-time telemetry and alerting.
+- [Prometheus](https://github.com/prometheus/prometheus) and [Grafana](https://github.com/grafana/grafana) provide infrastructure monitoring with custom hooks for a PID-controlled fan management system that dynamically adjusts Dell server fan speeds based on workload and temperature with real-time telemetry and alerting.
 
 **AI/ML Services**
 
-- LLM inference servers (vLLM, llama.cpp) running on the GPU cluster provide REST API access for integration with N8N workflows and various applications (OpenWebUI, ComfyUI, custom Gradio).
+- LLM inference servers (vLLM, llama.cpp) running on the GPU cluster provide REST API access for integration with N8N workflows and various applications ([OpenWebUI](https://github.com/open-webui/open-webui), [ComfyUI](https://github.com/comfyanonymous/ComfyUI), custom [Gradio](https://github.com/gradio-app/gradio)).
 - Classical ML models process RTSP streams from home CCTV cameras, integrated into UniFi Protect via an RTSP-to-ONVIF proxy. Planning to use a Coral TPU for edge-device realtime detection.
