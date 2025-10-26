@@ -94,11 +94,11 @@ What started out as a single laptop with a broken screen but fully functional as
 <details>
 <summary><b>Today</b></summary>
 
-**Current Stack:** QEMU/KVM, ESXi, Docker/Docker Compose, Portainer, UniFi networking, ZFS, Prometheus/Grafana, WireGuard, vLLM/llama.cpp, Home Assistant, Ubuntu Server/Debian/Fedora
+- **Current Stack:** QEMU/KVM, ESXi, Docker/Docker Compose, Portainer, UniFi networking, ZFS, Prometheus/Grafana, WireGuard, vLLM/llama.cpp, Home Assistant, Ubuntu Server/Debian/Fedora
 
-**Previously Used Extensively:** Proxmox, Ceph, Hyper-V, Windows Server, VMware Horizon, Cisco networking, SR-IOV/GPU passthrough
+- **Previously Used Extensively:** Proxmox, Ceph, Hyper-V, Windows Server, VMware Horizon, Cisco networking, SR-IOV/GPU passthrough
 
-**Core Skills:** Linux system administration, container orchestration, network architecture and security, storage management, infrastructure automation (Bash/Python), monitoring and observability, PKI/certificate management, hardware selection and configuration, GPU infrastructure management
+- **Core Skills:** Linux system administration, container orchestration, network architecture and security, storage management, infrastructure automation (Bash/Python), monitoring and observability, PKI/certificate management, hardware selection and configuration, GPU infrastructure management
 
 </details>
 
