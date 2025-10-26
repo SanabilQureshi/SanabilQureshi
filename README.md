@@ -4,13 +4,13 @@
 
 I love to read and experiment with building **scalable infrastructure**, **automating complex workflows**, and creating **reliable deployment pipelines** that bridge the gap between development and production. Applying this to the field of Machine Learning / AI is exciting for me since it bridges the gap between theoretical analysis and practical value.
 
-Currently, I'm working on **container orchestration**, **observability platforms**, and **infrastructure as code** to build more robust and maintainable systems.
+Currently, I'm working on **container orchestration**, **observability platforms**, and **infrastructure as code** to build more reliable and maintainable systems.
 
 My background:
 
 - MEng Aerospace Engineering (Hons.) from Brunel University London
-- 3.5+ years experience at HSBC as a Corporate/Investment Banker
-- 7+ years working on and growing my Homelab
+- 3.5+ years experience at HSBC as a Corporate/Investment Banker (current)
+- 7+ years working on and growing my [Homelab](https://github.com/SanabilQureshi#%EF%B8%8F-my-homelab-infrastructure)
 
 **Let's Connect!** Please feel free to contact me at: sanabil.t.qureshi@gmail.com
 
@@ -62,7 +62,7 @@ The work/fun never stops with my homelab, it's something that I started building
 
 What started out as a single laptop with a broken screen but fully functional as a server, eventually grew into a multi-node infrastructure that benefits others and myself on a daily basis.
 
-
+----
 
 ## A brief summary of my Homelab journey
 
@@ -102,7 +102,7 @@ What started out as a single laptop with a broken screen but fully functional as
 
 </details>
 
-
+----
 
 ## Current setup
 
