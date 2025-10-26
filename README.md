@@ -101,13 +101,6 @@ What started out as a single laptop with a broken screen but fully functional as
 
 </details>
 
-[Authelia](https://github.com/authelia/authelia)
-[Authentik](https://github.com/goauthentik/authentik)
-[Home Assistant](https://github.com/home-assistant)
-[Prometheus](https://github.com/prometheus/prometheus)
-[Grafana](https://github.com/grafana/grafana)
-[Memos](https://github.com/usememos/memos)
-
 ---
 
 ## Current setup
