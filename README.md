@@ -101,8 +101,6 @@ What started out as a single laptop with a broken screen but fully functional as
 
 </details>
 
----
-
 ## Current setup
 
 **Heavy Compute & Virtualization**
