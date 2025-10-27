@@ -77,7 +77,7 @@ What started out as a single laptop with a broken screen but fully functional as
 <details>
 <summary><b>Virtualisation & Networking (Years 3-5)</b></summary>
 
-- Began networking journey with a Cisco RV325 router in bridge mode before eventually obtaining PPPoE credentials and deploying a UDM Pro to replace ISP hardware entirely. Self-deployed CAT6 cabling throughout the house and implemented VLAN segmentation with firewall rules for network isolation.
+- Began networking journey with a Cisco RV325 & Mikrotik router in bridge mode before eventually obtaining PPPoE credentials and deploying a UDM Pro to replace ISP hardware entirely. Self-deployed CAT6 cabling throughout the house and implemented VLAN segmentation with firewall rules for network isolation.
 - Upgraded to Dell R730 with ESXi as the primary hypervisor, experimenting extensively with GPU passthrough and SR-IOV to provide dedicated discrete GPUs to individual VMs. Deployed VMware Horizon to give family members seamless access to their Windows VMs.
 - Tested Proxmox as an alternative hypervisor and built a Ceph cluster for high-performance distributed storage during intensive ML training workloads, ultimately gaining valuable exposure to different architectural approaches.
 
@@ -117,8 +117,8 @@ What started out as a single laptop with a broken screen but fully functional as
 
 **Lightweight containerisation**
 
-- Lenovo M920Q NUC running Ubuntu Server LTS hosts 30+ containerised services managed through Portainer using Docker Compose stacks, including N8N workflow automation integrated with local LLM APIs, Jupyter notebook servers, PDF tools ([Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF)), and note-taking applications ([Memos](https://github.com/usememos/memos), [ByteStash](https://github.com/jordan-dalby/ByteStash), [Trilium](https://github.com/TriliumNext/Trilium)).
-- Services run on custom bridge networks for isolation with persistent volume mounts backed up daily/weekly to separate NAS servers and monthly to cold storage.
+- Lenovo M920Q NUC running Ubuntu Server LTS hosts 30+ containerised services managed through Portainer using Docker Compose stacks, including n8n automations (daily topic of interest email summary, deep research etc.) integrated with local LLM APIs, Jupyter notebook servers, PDF tools ([Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF)), and note-taking applications ([Memos](https://github.com/usememos/memos), [ByteStash](https://github.com/jordan-dalby/ByteStash), [Trilium](https://github.com/TriliumNext/Trilium)).
+- Services run on dedicated bridge networks for isolation with persistent volume mounts backed up daily/weekly to separate NAS servers and monthly to cold storage.
 
 **Networking**
 
