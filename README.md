@@ -4,7 +4,7 @@
 
 I love to read and experiment with building **scalable infrastructure**, **automating complex workflows**, and creating **reliable deployment pipelines** that bridge the gap between development and production. Applying this to the field of Machine Learning / AI is exciting for me since it bridges the gap between theoretical analysis and practical value.
 
-Currently, I'm working on **container orchestration**, **observability platforms**, and **infrastructure as code** to build more reliable and maintainable systems.
+Currently, I'm working on **container orchestration**, **observability platforms**, and **infrastructure as code** to build more reliable and maintainable systems/workflows.
 
 My background:
 
@@ -36,7 +36,7 @@ My background:
 
 ### 📊 **Data Engineering & Analytics**
 - **[Banking Portfolio Analysis Tool](link)**  
-   Internal analytics tool at HSBC delivering £50M+ Risk Weighted Assets (RWAs) optimisation opportunities across corporate portfolio.
+   Internal analytics tool at HSBC delivering £75m+ Risk Weighted Assets (RWAs) optimisation opportunities across the global corporate portfolio. Tried + tested with current usage from over 40 banking colleagues every day.
 
 ---
 
@@ -60,7 +60,7 @@ My background:
 
 The work/fun never stops with my homelab, it's something that I started building in 2018 and have been adding to it ever since! Parts of it are in production (usable for family/friends without complaints) and the rest has evolved many many times as my understanding and appetite grew for mimicking enterprise technology that I see around me every day. 
 
-What started out as a single laptop with a broken screen but fully functional as a server, eventually grew into a multi-node infrastructure that benefits others and myself on a daily basis.
+What started out as a single laptop with a broken screen but fully functional as a server, eventually grew into a multi-node infrastructure that benefits myself and others on a daily basis.
 
 ----
 
@@ -69,7 +69,7 @@ What started out as a single laptop with a broken screen but fully functional as
 <details>
 <summary><b>Early Infrastructure (Years 1-3)</b></summary>
 
-- Started with a Dell R720 running bare metal Linux for computation and experimentation, learning about hardware, Linux administration, and resource management. Used lots during my MEng course, especially for my dissertations involving molecular dynamics shock-wave analysis and CNN-based machine learning (Bachelors + Masters)
+- Asides from an old laptop and then PC running Linux mint, my journey really started with a Dell R720 running bare metal Linux for computation and experimentation, learning about hardware, Linux administration, and resource management. Used lots during my MEng course, especially for my dissertations involving molecular dynamics shock-wave analysis and CNN-based machine learning (Bachelors + Masters)
 - Explored Windows Server with Hyper-V to understand Microsoft's virtualisation stack while running multiple VMs for family members. Built several custom PCs during this period to learn about hardware compatibility, power requirements, PCIe topology, and component selection.
 
 </details>
@@ -109,8 +109,8 @@ What started out as a single laptop with a broken screen but fully functional as
 **Heavy Compute & Virtualization**
 
 - Fractal
-  - EPYC 7542 server (196GB ECC RAM, 8x GPUs) running Fedora with QEMU/KVM for GPU-accelerated workloads including LLM inference servers (vLLM, llama.cpp), model fine-tuning, and classical ML pipelines for real-time CCTV video processing. 
-  - To get all 8 GPUs running at Gen4x8 speeds, I configured PCIe bifurcation with retimers to maintain signal integrity across all GPU slots and have an IPMI/IP-KVM setup for full remote out-of-band management of the whole system without needing to be physically present
+  - EPYC 7542 server (196GB ECC RAM, 8x GPUs) running Fedora with QEMU/KVM for virtualised Windows environments. Mainly performs GPU-accelerated workloads including LLM inference servers (vLLM, llama.cpp), model fine-tuning, and classical ML pipelines for real-time home CCTV video processing. 
+  - To get all 8 GPUs running at Gen4x8 speeds, I configured PCIe bifurcation with retimers to maintain signal integrity across all GPU slots, whilst also having an IPMI/IP-KVM setup for remote out-of-band management of the whole system without needing to be physically present
 - Mandelbrot
   - Dell R730 (dual Xeon E5-2680 v4, 384GB ECC RAM) running ESXi for mixed Windows/Linux VM workloads and testing environments. Previously used Proxmox and made scripts to allow safe export and import.
   - Also runs dedicated Windows VM's for family members and when having a LAN party. High speed NVME/SAS storage acts as a cache for local-only updates and file storage.
@@ -128,7 +128,7 @@ What started out as a single laptop with a broken screen but fully functional as
 
 **Storage**
 
-- UNAS Pro (14TB Intel Enterprise SSDs) for daily-use data accessible via SMB/NFS, with a Dell KTN-STL3 JBOD (60TB across two RAID-Z2 vdevs) using ZFS for archival storage.
+- UNAS Pro (14TB Intel Enterprise SSDs) for daily-use data accessible via SMB/NFS, with a Dell KTN-STL3 JBOD (60TB across two RAID-Z2 vdevs for speed/redundancy) using ZFS for archival storage.
 - Custom Bash scripts interface with [Home Assistant](https://github.com/home-assistant) API to safely power on/off the JBOD, monitor power draw during HDD spin-up, verify system readiness, and mount/unmount ZFS pools with pre-flight safety checks. Automated rsync to remote cloud storage follows 3-2-1 backup principles.
 
 **Monitoring & Automation**
