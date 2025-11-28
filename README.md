@@ -35,7 +35,7 @@ My background:
 ---
 
 ### 📊 **Data Engineering & Analytics**
-- **[Banking Portfolio Analysis Tool](link)**  
+- **[Banking Portfolio Analysis Tool](https://github.com/SanabilQureshi)**  
    Internal analytics tool at HSBC delivering £75m+ Risk Weighted Assets (RWAs) optimisation opportunities across the global corporate portfolio. Tried + tested with current usage from over 40 banking colleagues every day.
 
 ---
