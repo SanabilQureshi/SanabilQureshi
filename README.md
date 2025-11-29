@@ -38,7 +38,7 @@ My background:
 - **[Banking Portfolio Analysis Tool](https://github.com/SanabilQureshi)**  
    Internal analytics tool at HSBC delivering £75m+ Risk Weighted Assets (RWAs) optimisation opportunities across the global corporate portfolio. Tried + tested with current usage from over 40 banking colleagues every day.
 - **[RF Line of Sight Plotter](https://github.com/SanabilQureshi/RF-Line-of-Sight-Plotter)**
-   Geographic elevation data analysis tool which uses terrain elevation data (SRTM-30/250) to visualise RF signal paths between geographic points. Built to optimise antenna placement for my Meshtastic node, featuring Fresnel zone analysis using Haversine distance calculations and providing exportable elevation profiles.
+   Geographic data analysis tool which uses terrain elevation data to visualise RF signal paths between two points. Built to optimise antenna placement for my Meshtastic node, featuring Fresnel zone analysis using Haversine distance calculations and providing exportable elevation profiles.
 
 ---
 
