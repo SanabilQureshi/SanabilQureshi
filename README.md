@@ -1,4 +1,4 @@
-# Hi there, I'm Sunny 👋 
+# Hi there, I'm Sunny
 
 ## About Me
 
