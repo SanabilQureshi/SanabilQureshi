@@ -9,8 +9,8 @@ Currently, I'm working on **container orchestration**, **observability platforms
 My background:
 
 - 4.5+ years experience at HSBC as a Corporate/Investment Banker
-- MSc Applied Computational Science and Engineering from Imperial College London (current) 
-- MEng Aerospace Engineering (Hons.) from Brunel University London - 1st Class
+- MSc Applied Computational Science and Engineering | Imperial College London (currently on the course) 
+- MEng Aerospace Engineering (Hons.) | Brunel University London - 1st Class
 - 8+ years working on and growing my [Homelab](https://github.com/SanabilQureshi#%EF%B8%8F-my-homelab-infrastructure)
 
 **Let's Connect!** Please feel free to contact me at: sanabil.t.qureshi@gmail.com
