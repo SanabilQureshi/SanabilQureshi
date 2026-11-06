@@ -8,7 +8,7 @@ Currently, I'm working on **container orchestration**, **observability platforms
 
 My background:
 
-- 4.5+ years experience at HSBC as a Corporate/Investment Banker
+- 4.5+ years experience at HSBC in Canary Wharf as a Corporate/Investment Banker
 - MSc Applied Computational Science and Engineering | Imperial College London (currently on the course) 
 - MEng Aerospace Engineering (Hons.) | Brunel University London - 1st Class
 - 8+ years working on and growing my [Homelab](https://github.com/SanabilQureshi#%EF%B8%8F-my-homelab-infrastructure)
